@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Arcade';
+    src: url('./assets/PressStart2P.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    image-rendering: pixelated; 
+}
+
+body {
+    text-align: center;
+    background-color: grey;
+    font-family: 'Arcade';
+}
+
+canvas {
+    background-color: white;
+    border: solid 1px black;
+    margin: 20px auto;
+}
